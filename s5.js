@@ -56,3 +56,15 @@ tl5.fromTo(
   },
   "<+=0.1"
 );
+
+tl5.fromTo(
+  "#bg5",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 2,
+  },
+  "<+=0.1"
+);
