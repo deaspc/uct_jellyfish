@@ -1,0 +1,21 @@
+p1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(48px, 2.5vw, 64px);
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+}
+
+p2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(24px, 2.5vw, 32px);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+p3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(16px, 2.5vw, 18px);
+  color: #ffffff;
+  font-weight: 600;
+}
