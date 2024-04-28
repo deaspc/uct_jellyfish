@@ -58,6 +58,30 @@ tl3.fromTo(
 );
 
 tl3.fromTo(
+  "#text33",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 2,
+  },
+  "<+=0.1"
+);
+
+tl3.fromTo(
+  "#text33",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    rotateX: 90,
+    duration: 2,
+  }
+);
+
+tl3.fromTo(
   "#img31",
   {
     scale: 1,
@@ -82,7 +106,7 @@ tl3.fromTo(
 );
 
 tl3.fromTo(
-  "#text33",
+  "#text34",
   {
     opacity: 0,
   },
@@ -105,7 +129,7 @@ tl3.fromTo(
 );
 
 tl3.fromTo(
-  "#text33",
+  "#text34",
   {
     opacity: 1,
   },
