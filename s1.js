@@ -59,10 +59,11 @@ tl1.fromTo(
 tl1.fromTo(
   "#bg1",
   {
-    opacity: 1,
+    filter: "brightness(1)",
   },
   {
-    opacity: 0,
+    filter: "brightness(0)",
     duration: 2,
-  }
+  },
+  "<+=0.1"
 );
