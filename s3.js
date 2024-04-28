@@ -17,7 +17,7 @@ tl3.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
     duration: 2,
   }
 );
@@ -52,7 +52,7 @@ tl3.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
     duration: 2,
   }
 );
@@ -76,7 +76,7 @@ tl3.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
     duration: 2,
   }
 );
@@ -135,7 +135,19 @@ tl3.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
+    duration: 2,
+  },
+  "<+=0.1"
+);
+
+tl3.fromTo(
+  "#bg3",
+  {
+    filter: "brightness(1)",
+  },
+  {
+    filter: "brightness(0)",
     duration: 2,
   },
   "<+=0.1"

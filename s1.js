@@ -28,7 +28,7 @@ tl1.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
     duration: 2,
   }
 );
@@ -51,7 +51,7 @@ tl1.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
     duration: 2,
   }
 );
