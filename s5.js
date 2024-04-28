@@ -11,6 +11,17 @@ const tl5 = gsap.timeline({
 });
 
 tl5.fromTo(
+  "#bg5",
+  {
+    filter: "brightness(0)",
+  },
+  {
+    filter: "brightness(1)",
+    duration: 2,
+  }
+);
+
+tl5.fromTo(
   "#img5",
   {
     opacity: 0,
@@ -51,7 +62,7 @@ tl5.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
     duration: 2,
   },
   "<+=0.1"
@@ -65,5 +76,6 @@ tl5.fromTo(
   {
     filter: "brightness(0)",
     duration: 2,
-  }
+  },
+  "<+=0.1"
 );

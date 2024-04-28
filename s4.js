@@ -39,7 +39,7 @@ tl4.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
     duration: 2,
   }
 );
@@ -62,7 +62,7 @@ tl4.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
+
     duration: 2,
   }
 );
