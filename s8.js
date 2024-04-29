@@ -54,6 +54,18 @@ tl8.fromTo(
   },
   {
     opacity: 1,
+    x: -20,
+    duration: 3,
+  }
+);
+
+tl8.fromTo(
+  "#img81l",
+  {
+    x: -20,
+  },
+  {
+    opacity: 1,
     x: -1000,
     duration: 3,
   }
