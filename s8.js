@@ -306,6 +306,19 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
+  "#img81lc",
+  {
+    opacity: 0,
+    x: 30,
+  },
+  {
+    opacity: 1,
+    x: 0,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
   "#thirtyone",
   {
     opacity: 1,
@@ -314,4 +327,140 @@ tl8.fromTo(
     opacity: 0,
     duration: 2,
   }
+);
+
+tl8.fromTo(
+  "#img83lc",
+  {
+    opacity: 0,
+    x: 30,
+  },
+  {
+    opacity: 1,
+    x: 0,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
+  "#img82rc",
+  {
+    opacity: 0,
+    x: -30,
+  },
+  {
+    opacity: 1,
+    x: 0,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
+  "#text82",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
+  "#img82lc",
+  {
+    opacity: 0,
+    x: 30,
+  },
+  {
+    opacity: 1,
+    x: 0,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
+  "#img83rc",
+  {
+    opacity: 0,
+    x: -30,
+  },
+  {
+    opacity: 1,
+    x: 0,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
+  "#text82",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+
+    duration: 2,
+  }
+);
+
+console.clear();
+const fish1 = document.querySelector("#img81lc");
+const target1 = document.querySelector("#img81lc");
+
+fish1.addEventListener("click", () =>
+  gsap.fromTo(
+    target1,
+    { x: 0, opacity: 1 },
+    { x: -10, opacity: 0, duration: 0.5 }
+  )
+);
+
+console.clear();
+const fish2 = document.querySelector("#img82lc");
+const target2 = document.querySelector("#img82lc");
+
+fish2.addEventListener("click", () =>
+  gsap.fromTo(
+    target2,
+    { x: 0, opacity: 1 },
+    { x: -10, opacity: 0, duration: 0.5 }
+  )
+);
+
+console.clear();
+const fish3 = document.querySelector("#img83lc");
+const target3 = document.querySelector("#img83lc");
+
+fish3.addEventListener("click", () =>
+  gsap.fromTo(
+    target3,
+    { x: 0, opacity: 1 },
+    { x: -10, opacity: 0, duration: 0.5 }
+  )
+);
+
+console.clear();
+const fish4 = document.querySelector("#img82rc");
+const target4 = document.querySelector("#img82rc");
+
+fish4.addEventListener("click", () =>
+  gsap.fromTo(
+    target4,
+    { x: 0, opacity: 1 },
+    { x: 10, opacity: 0, duration: 0.5 }
+  )
+);
+
+console.clear();
+const fish5 = document.querySelector("#img83rc");
+const target5 = document.querySelector("#img83rc");
+
+fish5.addEventListener("click", () =>
+  gsap.fromTo(
+    target5,
+    { x: 0, opacity: 1 },
+    { x: 10, opacity: 0, duration: 0.5 }
+  )
 );
