@@ -9,3 +9,25 @@ const tl9 = gsap.timeline({
     pinSpacing: false,
   },
 });
+
+tl9.fromTo(
+  "#img91",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 2,
+  }
+);
+
+tl9.fromTo(
+  "#img91",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 2,
+  }
+);
