@@ -9,3 +9,14 @@ const tl9 = gsap.timeline({
     pinSpacing: false,
   },
 });
+
+tl9.fromTo(
+  "#bg9",
+  {
+    filter: "brightness(0.5)",
+  },
+  {
+    filter: "brightness(0.25)",
+    duration: 2,
+  }
+);

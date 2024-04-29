@@ -22,7 +22,7 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
-  "#text80",
+  "#text81",
   {
     opacity: 0,
   },
@@ -34,7 +34,7 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
-  "#text80",
+  "#text81",
   {
     opacity: 1,
   },
