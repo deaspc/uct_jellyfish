@@ -13,10 +13,10 @@ const tl9 = gsap.timeline({
 tl9.fromTo(
   "#bg9",
   {
-    filter: "brightness(0.5)",
+    filter: "brightness(0.25)",
   },
   {
-    filter: "brightness(0.25)",
+    filter: "brightness(0.15)",
     duration: 2,
   }
 );
