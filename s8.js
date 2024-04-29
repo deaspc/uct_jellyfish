@@ -292,3 +292,26 @@ tl8.fromTo(
   },
   "<+=0.1"
 );
+
+// 31m
+tl8.fromTo(
+  "#thirtyone",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
+  "#thirtyone",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 2,
+  }
+);
