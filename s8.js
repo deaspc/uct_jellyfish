@@ -155,6 +155,17 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
+  "#text82",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
   "#img81l",
   {
     opacity: 0,
@@ -177,6 +188,17 @@ tl8.fromTo(
     duration: 2,
   },
   "<+=0.1"
+);
+
+tl8.fromTo(
+  "#text82",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 2,
+  }
 );
 
 tl8.fromTo(
@@ -369,7 +391,7 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
-  "#text82",
+  "#text83",
   {
     opacity: 0,
   },
