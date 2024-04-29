@@ -293,7 +293,7 @@ tl8.fromTo(
   "<+=0.1"
 );
 
-// 31m
+// 31m + click
 tl8.fromTo(
   "#thirtyone",
   {
@@ -356,6 +356,19 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
+  "#img84",
+  {
+    opacity: 0,
+    y: 100,
+  },
+  {
+    opacity: 1,
+    y: 0,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
   "#text82",
   {
     opacity: 0,
@@ -389,18 +402,6 @@ tl8.fromTo(
   {
     opacity: 1,
     x: 0,
-    duration: 2,
-  }
-);
-
-tl8.fromTo(
-  "#text82",
-  {
-    opacity: 1,
-  },
-  {
-    opacity: 0,
-
     duration: 2,
   }
 );

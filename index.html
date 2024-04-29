@@ -268,9 +268,14 @@
   <!-- scene8 ปลา -->
   <div class="container8" style="height: 900vh">
     <div
-      id="bg8"
-      class="relative h-screen bg-cover bg-center bg-[url('asset/bg8.png')]"
+      class="relative h-screen bg-[#000000]"
     >
+      <!-- bg -->
+      <img
+            id="bg8"
+            src="asset/bg8.png"
+            class="absolute left-1/2 -translate-x-1/2 top-0 w-auto min-w-full min-h-full max-w-none"
+          />
       <!-- img8 -->
       <div
         id="img81l"
@@ -325,12 +330,21 @@
       >
         <img src="asset/gbluer.png" />
       </div>
-
       <div
         id="img83rc"
         class="opacity-0 absolute flex-col flex items-center left-[10%] top-[500px] w-[60%] sm:w-[40%] md:w-[30%]"
       >
         <img src="asset/gyelr.png" />
+      </div>
+      <div
+        id="img84"
+        class="opacity-0 absolute flex-col flex items-center left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[10%] sm:w-[5%] md:w-[5%]"
+      >
+        <nav>
+          <a href="#s9">
+            <img src="asset/jellyfish2.png" />
+          </a>
+        </nav>
       </div>
 
       <!-- text8 -->
@@ -370,13 +384,14 @@
         id="text82"
         class="opacity-0 absolute text-center left-1/2 -translate-x-1/2 bottom-[50px]"
       >
-        <p3>Click to defeat the fish so they don't eat your jellyfish</p3>
+        <p3>Click to defeat fish</p3>
+        <p3>and then bring the jellyfish back to lab</p3>
       </div>
     </div>
   </div>
 
   <!-- scene9 จับแมงกะพรุน-->
-  <div class="container9" style="height: 1000vh">
+  <div id="s9" class="container9" style="height: 1000vh">
     <div
       id="bg9"
       class="relative h-screen bg-cover bg-center bg-[url('asset/bg8.png')]"
