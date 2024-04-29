@@ -4,7 +4,7 @@ const tl10 = gsap.timeline({
     trigger: ".container10",
     pin: true,
     start: "top top",
-    end: "bottom bottom",
+    end: "max",
     scrub: true,
     pinSpacing: false,
   },
