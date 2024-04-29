@@ -40,12 +40,22 @@ tl8.fromTo(
   },
   {
     opacity: 0,
-    rotateX: 90,
     duration: 2,
   }
 );
 
 // 10m
+tl8.fromTo(
+  "#ten",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 2,
+  }
+);
+
 tl8.fromTo(
   "#img81l",
   {
@@ -54,21 +64,59 @@ tl8.fromTo(
   },
   {
     opacity: 1,
-    x: -20,
+    x: -10,
     duration: 3,
   }
 );
 
 tl8.fromTo(
-  "#img81l",
+  "#ten",
   {
-    x: -20,
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 2,
+  }
+);
+
+tl8.fromTo(
+  "#img83r",
+  {
+    opacity: 0,
+    x: 0,
   },
   {
     opacity: 1,
-    x: -1000,
+    x: 10,
     duration: 3,
+  },
+  "<+=0.1"
+);
+
+tl8.fromTo(
+  "#img81l",
+  {
+    x: -10,
+  },
+  {
+    opacity: 0,
+    x: -1000,
+    duration: 5,
   }
+);
+
+tl8.fromTo(
+  "#img83r",
+  {
+    x: 10,
+  },
+  {
+    opacity: 0,
+    x: 1000,
+    duration: 5,
+  },
+  "<+=0.1"
 );
 
 // 20m
