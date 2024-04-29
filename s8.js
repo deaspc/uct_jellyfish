@@ -56,8 +56,7 @@ tl8.fromTo(
     opacity: 1,
     x: -1000,
     duration: 3,
-  },
-  ">+=0.1"
+  }
 );
 
 // 20m
