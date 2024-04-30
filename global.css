@@ -20,6 +20,21 @@ p3 {
   font-weight: 600;
 }
 
+/* back button */
+.backbtn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  z-index: 1000;
+}
+/* #back {
+  margin-left: 20px;
+  padding-top: 20px;
+} */
+
 /* button */
 /* CSS */
 #button1,
