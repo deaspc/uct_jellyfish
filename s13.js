@@ -265,7 +265,7 @@ tl13.fromTo(
 );
 
 tl13.fromTo(
-  "#text137, #meduza2",
+  "#text136, #meduza2, #img136",
   {
     opacity: 1,
   },
