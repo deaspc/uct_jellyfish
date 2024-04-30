@@ -8,7 +8,7 @@ p1 {
 
 p2 {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(20px, 2.5vw, 28px);
+  font-size: clamp(18px, 2.5vw, 24px);
   color: #ffffff;
   font-weight: 600;
 }
@@ -38,7 +38,9 @@ p3 {
 /* button */
 /* CSS */
 #button1,
-#button2 {
+#button2,
+#button3,
+#button4 {
   align-items: center;
   background-color: #ffffff;
   border-radius: 16px;
@@ -67,7 +69,23 @@ p3 {
   color: #ffffff;
 }
 
+#button3:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+#button4:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
 #button1 {
+  margin-right: 50px;
+}
+
+#button3 {
   margin-right: 50px;
 }
 
@@ -201,3 +219,5 @@ p3 {
     transform: rotate(0deg);
   }
 } */
+
+/* s17 */

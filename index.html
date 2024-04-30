@@ -689,6 +689,62 @@
     </div>
   </div>
 
+  <!-- scene16 mission complete -->
+  <div class="container16" style="height: 1700vh">
+    <div
+      id="bg16"
+      class="relative h-screen bg-cover bg-center bg-[url('asset/bg16.png')]"
+    >
+      <!-- text16 -->
+      <div
+        id="text161"
+        class="absolute flex-col flex items-center text-center left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
+      >
+        <p1>MISSION COMPLETE!</p1>
+      </div>
+      <div
+        id="text162"
+        class="absolute flex-col flex items-center text-center left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
+      >
+        <p2>Thanks for your hard work</p2>
+        <p2>Here's a certificate.</p2>
+      </div>
+      <video
+        autoplay
+        loop
+        muted
+        class="w-full min-w-full min-h-full max-w-none"
+        id="bg14"
+      >
+        <source src="asset/gradient3.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+
+  <!-- scene17 cer -->
+  <div class="container17" style="height: 1800vh">
+    <div class="relative h-screen bg-[#000000]">
+      <img
+        id="random"
+        src=""
+        alt="Image Here"
+        class="absolute flex-col flex items-center text-center left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[50%] sm:w-[40%] md:w-[30%]"
+      />
+      <div
+        class="absolute flex-row flex items-center left-1/2 -translate-x-1/2 bottom-[50px]"
+      >
+        <div>
+          <button id="button3" class="btnRandomPicture" role="button">
+            Random
+          </button>
+        </div>
+        <div id="button4">
+          <button class="button" role="button">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- <audio id="audio" src="audio.mp3" autoplay></audio> -->
 </body>
 <footer>
@@ -707,4 +763,7 @@
   <script src="s13.js"></script>
   <script src="s14.js"></script>
   <script src="s15.js"></script>
+  <script src="s16.js"></script>
+  <script src="s17.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.2/FileSaver.min.js"></script>
 </footer>
