@@ -42,10 +42,10 @@ p3 {
 #button3,
 #button4 {
   align-items: center;
-  background-color: #ffffff;
-  border-radius: 16px;
+  border-radius: 20px;
   box-sizing: border-box;
-  color: #000000;
+  border: 1px solid white;
+  color: white;
   cursor: pointer;
   display: inline-flex;
   flex: 1 1 auto;
@@ -58,27 +58,19 @@ p3 {
 }
 
 #button1:hover {
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #button2:hover {
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #button3:hover {
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #button4:hover {
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #button1 {

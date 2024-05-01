@@ -45,28 +45,6 @@ tl16.fromTo(
 );
 
 tl16.fromTo(
-  "#text162",
-  {
-    opacity: 0,
-  },
-  {
-    opacity: 1,
-    duration: 2,
-  }
-);
-
-tl16.fromTo(
-  "#text162",
-  {
-    opacity: 1,
-  },
-  {
-    opacity: 0,
-    duration: 2,
-  }
-);
-
-tl16.fromTo(
   "#bg16",
   {
     filter: "brightness(1)",
